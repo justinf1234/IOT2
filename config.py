@@ -1,9 +1,9 @@
 # AWS general configuration
 AWS_PORT = 8883
 AWS_HOST = 'anly5ghm643s-ats.iot.us-east-1.amazonaws.com' 
-AWS_ROOT_CA = '/home/pi/certs/aws_root.pem'
-AWS_CLIENT_CERT = '/home/pi/certs/aws_client.crt'
-AWS_PRIVATE_KEY = '/home/pi/certs/aws_private.key'
+AWS_ROOT_CA = 'certs/aws_root.pem'
+AWS_CLIENT_CERT = 'certs/aws_client.crt'
+AWS_PRIVATE_KEY = 'certs/aws_private.key'
 
 ################## Subscribe / Publish client #################
 CLIENT_ID = 'fromPi'  
